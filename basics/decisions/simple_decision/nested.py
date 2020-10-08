@@ -1,6 +1,7 @@
 #Nested  decisions. Where an if statement has an additional if statement indented below the first statement. This is to allow multiple choices within an if statement.
 
 print("What type of book cover does the book have?")
+print("soft/hard")
 cover = input()
 print()
 if (cover =="soft"):
