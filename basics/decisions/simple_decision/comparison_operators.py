@@ -1,3 +1,4 @@
+#Comparing two numbers to find the smallest number of the the user input.
 print()
 print("I wish to compare two numbers to find the samllest number.")
 print("Please enter the first number.")
