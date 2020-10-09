@@ -10,17 +10,10 @@ avoid = 0
 
 print()
 while (avoid < live_cables):
-<<<<<<< HEAD
   avoid = avoid +1
   print ("Avoiding...", end="")
   print ("Done! {} live cables avoided.".format (avoid))
   
-=======
-  print ("Avoiding...", end="")
-  print ("Done! {} live cables avoided.".format (avoid))
-  avoid = avoid +1
->>>>>>> 43f549e461abcd5d2201474c1b5952116fa4157a
-
 
 print("""
 All live cables have been avoided.""")
