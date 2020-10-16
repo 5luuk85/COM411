@@ -14,4 +14,4 @@ def listen ():
     print("It was probably nothing.")
 
 #Simply running the custom defined function will not do anything over in the console, it will only run in the background. But if we call it, as shown below, the function will then run on the console.
-listen()
+#listen()

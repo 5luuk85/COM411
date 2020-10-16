@@ -14,10 +14,10 @@ def cross_bridge(steps):
     print("We must keep going!")
   
 #The callings of our function  
-cross_bridge(1)
-cross_bridge(2)
-cross_bridge(3)
-cross_bridge(4)
-cross_bridge(5)
-cross_bridge(6)
-cross_bridge(7)
+#cross_bridge(1)
+#cross_bridge(2)
+#cross_bridge(3)
+#cross_bridge(4)
+#cross_bridge(5)
+#cross_bridge(6)
+#cross_bridge(7)

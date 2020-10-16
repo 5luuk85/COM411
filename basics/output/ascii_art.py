@@ -1,4 +1,6 @@
 # Display of Beep the robot
+def run()
+
 print("  \\    / ")
 print("##########")
 print("# @    @ #")

@@ -10,5 +10,5 @@ def climb_ladder(remaining, crossed):
     print("We are almost there!")
 
 #The calling of our defined function.
-climb_ladder(3, 6)
-climb_ladder(8, 5)
+#climb_ladder(3, 6)
+#climb_ladder(8, 5)

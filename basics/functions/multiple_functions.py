@@ -17,4 +17,4 @@ def create_ladder():
 #Notice how the variable we created "steps" is also the same name as the parameter we have set for our deflined function "display_ladder(steps)"
 #The second function will call the first function for it's use. 
 
-create_ladder()
+#create_ladder()
