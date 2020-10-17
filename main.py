@@ -6,7 +6,6 @@
 #Output
 import basics.output.simple_message as simple_message
 import basics.output.multiline_message as multiline_message
-
 import basics.output.escape_characters as escape_characters
 import basics.output.ascii_art as ascii_art
 
@@ -83,6 +82,8 @@ import basics.output.multiline_message as multiline_message
 def run_block_a():
     print("Which program in 'Block A: Basics' do you wish to run?")
     response = input()
+
+    #Output
     if (response == "simple_message"):
         simple_message.run()
     elif (response == "multiline_message"):
@@ -91,6 +92,20 @@ def run_block_a():
         escape_characters.run()
     elif (response == "ascii_art"):
         ascii_art.run()
+
+    #Input
+    elif (response == "user_input"):
+        user_input.run()
+    elif (response == "ascii_robot"):
+        ascii_robot.run()
+    elif (response == "data_types"):
+        data_types.run()
+    elif (response == "string_operators"):
+        string_operators.run()
+
+
+
+
 
 
 
