@@ -2,7 +2,7 @@
 #A program needs to be created in order to help Bop distribute the weight while climbing.
 
 def run():
-<<<<<<< HEAD
+
 
   def sum_weights(beep_weight, bop_weight):
     total_weight = beep_weight + bop_weight
@@ -36,7 +36,7 @@ def run():
       print ("The average weight of Beep and Bop is: {:.2f}".format(answer))
     else:
       print("Invalid, please try again.")
-=======
+
   print("Plese enter the weight for each robot.")
   print("Beep's weight:")
   print()
@@ -60,6 +60,6 @@ def run():
     print ("The average weight of Beep and Bop is: {:.2f}".format(answer))
   else:
     print("Invalid, please try again.")
->>>>>>> 64a283ef3772a1503bf0d85292154b70cec1ccb2
+
 
 #run()

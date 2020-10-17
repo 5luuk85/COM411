@@ -20,4 +20,4 @@ def run():
 
   #We could do an first_number == second_number but, as the if and elif statements above already work out which one is smaller or bigger than the other, the only remainder to for the else statement would have to be two numbers that are the same.
   else:
-  print("Both numbers are equal!")
+    print("Both numbers are equal!")

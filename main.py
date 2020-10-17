@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Library of work done
 
 ################################# Block A #######################################
@@ -7,7 +7,7 @@
 import basics.output.simple_message as simple_message
 import basics.output.multiline_message as multiline_message
 
-import basics.output.esacpe_characters as escape_characters
+import basics.output.escape_characters as escape_characters
 import basics.output.ascii_art as ascii_art
 
 #Input
@@ -17,16 +17,16 @@ import basics.input.data_types as data_types
 import basics.input.string_operators as string_operators
 
 #Decisions> simple Decisions
-import basics.simple_decision.if as if_
-import basics.simple_decision.if_else as if_else
-import basics.simple_decision.if_elif_else as if_elif_else
-import basics.simple_decision.modulo_operator as modulo_operator
-import basics.simple_decision.comparison_operators as comparison_operators
-import basics.simple_decision.counter as counter
-import basics.simple_decision.nested as nested
-import basics.simple_decision.nestception as nestception
-import basics.simple_decision.or_operator as or_operator
-import basics.simple_decision.and_operator as and_operator
+import basics.decisions.simple_decision.if_ as if_
+import basics.decisions.simple_decision.if_else as if_else
+import basics.decisions.simple_decision.if_elif_else as if_elif_else
+import basics.decisions.simple_decision.modulo_operator as modulo_operator
+import basics.decisions.simple_decision.comparison_operators as comparison_operators
+import basics.decisions.simple_decision.counter as counter
+import basics.decisions.simple_decision.nested as nested
+import basics.decisions.simple_decision.nestception as nestception
+import basics.decisions.simple_decision.or_operator as or_operator
+import basics.decisions.simple_decision.and_operator as and_operator
 
 #Repetitions
 #Repetitions> while_loop
@@ -45,8 +45,8 @@ import basics.repetitions.for_loop.characters as characters
 import basics.repetitions.for_loop.reverse as reverse
 import basics.repetitions.for_loop.membership_operators as membership_operators
 #Repetitions> nested_loop
-import basics.repetitions.for_loop.nested as nested
-import basics.repetitions.for_loop.nesting as nesting
+import basics.repetitions.nested_loop.nested as nested
+import basics.repetitions.nested_loop.nesting as nesting
 
 #Functions
 import basics.functions.ascii_code as ascii_code
@@ -75,11 +75,11 @@ import basics.modules.guess_the_number as guess_the_number
 
 
 
-=======
+
 import basics.output.simple_message as simple_message
 import basics.output.multiline_message as multiline_message
 
->>>>>>> 64a283ef3772a1503bf0d85292154b70cec1ccb2
+
 def run_block_a():
     print("Which program in 'Block A: Basics' do you wish to run?")
     response = input()
@@ -87,13 +87,15 @@ def run_block_a():
         simple_message.run()
     elif (response == "multiline_message"):
         multiline_message.run()
+    elif (response == "escape_characters"):
+        escape_characters.run()
+    elif (response == "ascii_art"):
+        ascii_art.run()
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 64a283ef3772a1503bf0d85292154b70cec1ccb2
+
 def run():
     is_running = True
 
