@@ -1,11 +1,13 @@
 #Using the if statement along with else
 
-print("Please enter the activity to be performed.")
-activity = input()
+def run():
 
-if activity == "calculate":
-  print("Performing calculations...") 
-else:
-  print("Performing activity...")
+  print("Please enter the activity to be performed.")
+  activity = input()
 
-print("Activity completed!")
+  if activity == "calculate":
+    print("Performing calculations...") 
+  else:
+    print("Performing activity...")
+
+  print("Activity completed!")

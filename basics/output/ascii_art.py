@@ -1,10 +1,13 @@
 # Display of Beep the robot
-print("  \\    / ")
-print("##########")
-print("# @    @ #")
-print("#    O   #")
-print("#  ____  #")
-print("##########")
-print(" #      # ")
-print(" #      # ")
-print(" #      # ")
+
+def run():
+
+  print("  \\    / ")
+  print("##########")
+  print("# @    @ #")
+  print("#    O   #")
+  print("#  ____  #")
+  print("##########")
+  print(" #      # ")
+  print(" #      # ")
+  print(" #      # ")

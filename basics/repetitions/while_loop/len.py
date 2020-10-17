@@ -2,22 +2,24 @@
 
 #Use of the len() function.
 
-print("""
-Please enter a phrase.
-""")
- 
-phrase = input()
-length = len(phrase)
-#len will read the number of characters within a string. In this case the variable "length" is the number of characters of the users input variable "phrase".
+def run():
 
-#Next we need a control variable for the while loop.
-repeat = 0
+  print("""
+  Please enter a phrase.
+  """)
+  
+  phrase = input()
+  length = len(phrase)
+  #len will read the number of characters within a string. In this case the variable "length" is the number of characters of the users input variable "phrase".
 
-print("""
-The robot responds.
-""")
+  #Next we need a control variable for the while loop.
+  repeat = 0
 
-while (repeat < length):
-  print("bop ", end="")
-  repeat +=1
+  print("""
+  The robot responds.
+  """)
+
+  while (repeat < length):
+    print("bop ", end="")
+    repeat +=1
 

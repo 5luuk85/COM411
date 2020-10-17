@@ -2,20 +2,22 @@
 
 #Beep is feeling adventurous and wants us to pick route for him.
 
-print("""What type of adventure should I have?
+def run():
 
-Scary / Short / Safe / Long
-""")
-adventure = input()
+  print("""What type of adventure should I have?
 
-print()
-if ((adventure == "scary") or (adventure == "short")):
-  print("Entering the dark forest!")
+  Scary / Short / Safe / Long
+  """)
+  adventure = input()
 
-elif((adventure == "safe") or (adventure =="long")):
-  print("Taking the safe route!")
+  print()
+  if ((adventure == "scary") or (adventure == "short")):
+    print("Entering the dark forest!")
 
-#The or statement in this case is reading the variable adventure as true for both sides.
+  elif((adventure == "safe") or (adventure =="long")):
+    print("Taking the safe route!")
 
-else:
-  print("Not sure which route to take.")
+  #The or statement in this case is reading the variable adventure as true for both sides.
+
+  else:
+    print("Not sure which route to take.")
