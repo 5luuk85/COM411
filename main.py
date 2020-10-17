@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Library of work done
 
 ################################# Block A #######################################
@@ -74,6 +75,11 @@ import basics.modules.guess_the_number as guess_the_number
 
 
 
+=======
+import basics.output.simple_message as simple_message
+import basics.output.multiline_message as multiline_message
+
+>>>>>>> 64a283ef3772a1503bf0d85292154b70cec1ccb2
 def run_block_a():
     print("Which program in 'Block A: Basics' do you wish to run?")
     response = input()
@@ -83,8 +89,11 @@ def run_block_a():
         multiline_message.run()
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 64a283ef3772a1503bf0d85292154b70cec1ccb2
 def run():
     is_running = True
 
