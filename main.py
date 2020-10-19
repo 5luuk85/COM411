@@ -75,10 +75,6 @@ import basics.modules.guess_the_number as guess_the_number
 
 
 
-import basics.output.simple_message as simple_message
-import basics.output.multiline_message as multiline_message
-
-
 def run_block_a():
     print("Which program in 'Block A: Basics' do you wish to run?")
     response = input()
@@ -93,6 +89,7 @@ def run_block_a():
     elif (response == "ascii_art"):
         ascii_art.run()
 
+
     #Input
     elif (response == "user_input"):
         user_input.run()
@@ -102,9 +99,96 @@ def run_block_a():
         data_types.run()
     elif (response == "string_operators"):
         string_operators.run()
+        
 
 
+    #Decisions> Simple Decisions
+    elif (response == "if_"):
+        if_.run()
+    elif (response == "if_else"):
+        if_else.run()
+    elif (response == "if_elif_else"):
+        if_elif_else.run()
+    elif (response == "modulo_operator"):
+        modulo_operator.run()
+    elif (response == "comparison_operators"):
+        comparison_operators.run()
+    elif (response == "counter"):
+        counter.run()
+    elif (response == "nested"):
+        nested.run()
+    elif (response == "nestception"):
+        nestception.run()
+    elif (response == "or_operator"):
+        or_operator.run()
+    elif (response == "and_operator"):
+        and_operator.run()
 
+
+    #Repetitions
+    #Repetitions> while_loop
+    elif (response == "simple_while_loop"):
+        simple_while_loop.run()
+    elif (response == "count"):
+        count.run()
+    elif (response == "ascii_"):
+        ascii_.run()
+    elif (response == "sum_100"):
+        sum_100.run()
+    elif (response == "sum_user_numbers"):
+        sum_user_numbers.run()
+    elif (response == "factorial"):
+        factorial.run()
+    elif (response == "len_"):
+        len_.run()
+
+    #Repetitions> for_loop
+    elif (response == "simple_for_loop"):
+        simple_for_loop.run()
+    elif (response == "count_down"):
+        count_down.run()
+    elif (response == "range_"):
+        range_.run()
+    elif (response == "characters"):
+        characters.run()
+    elif (response == "reverse"):
+        reverse.run()
+    elif (response == "membership_operators"):
+        membership_operators.run()
+
+    #Repetitions> nested_loop
+    elif (response == "nested"):
+        nested.run()
+    elif (response == "nesting"):
+        nesting.run()
+
+    
+    #Functions
+    elif (response == "ascii_code"):
+        ascii_code.run()
+    elif (response == "ascii_character"):
+        ascii_character.run()
+    elif (response == "simple_function"):
+        simple_function.run()
+    elif (response == "function_with_nesting"):
+        function_with_nesting.run()
+    elif (response == "function_with_parameter"):
+        function_with_parameter.run()
+    elif (response == "function_with_loop"):
+        function_with_loop.run()
+    elif (response == "function_with_parameters"):
+        function_with_parameters.run()
+    elif (response == "multiple_functions"):
+        multiple_functions.run()
+    elif (response == "return_values"):
+        return_values.run()
+    elif (response == "function_calls"):
+        function_calls.run()
+
+  
+    #Modules
+    elif (response == "guess_the_number"):
+        guess_the_number.run()
 
 
 
