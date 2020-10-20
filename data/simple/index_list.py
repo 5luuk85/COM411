@@ -8,10 +8,14 @@ def movements():
 
 def run():
   print("moving...")
-
   directions = movements()
+
   for index in range (0, len(directions), 2):
-    print("{} for {}".format (index, directions[index]))
+    print("{} for {} steps".format (directions[index], index))
+
+
+
+  #print("{} for {}".format(directions[9], directions[9]))
 
 
 run()
