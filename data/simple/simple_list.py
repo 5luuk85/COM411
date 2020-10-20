@@ -7,6 +7,6 @@ def directions():
   return directions
 
 def run():
-  print (directions)
+  print (directions())
 
 run()
