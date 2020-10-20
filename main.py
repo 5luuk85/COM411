@@ -64,6 +64,19 @@ import basics.modules.guess_the_number as guess_the_number
 
 ################################# Block A #######################################
 
+################################# Block B #######################################
+
+#Simple
+import data.simple.simple_list as simple_list
+import data.simple.index_list as index_list
+import data.simple.iterate_list as iterate_list
+import data.simple.populate_list as populate_list
+
+#Tuples
+import data.tuples.simple_tuple as simple_tuple
+import data.tuples.function_tuple as function_tuple
+import data.tuples.nested_tuple as nested_tuple
+
 
 #Copy & paste items below to save time
 
@@ -193,6 +206,30 @@ def run_block_a():
 
 
 
+def run_block_b():
+    print("Which program in 'Block B: Data' do you wish to run?")
+    response = input()
+
+    #Simple
+    if (response == "simple_list"):
+        simple_list.run()
+    elif (response == "index_list"):
+        index_list.run()
+    elif (response == "iterate_list"):
+        iterate_list.run()
+    elif (response == "populate_list"):
+        populate_list.run()
+
+    #Tuples
+    elif (response == "simple_tuple"):
+        simple_tuple.run()
+    elif (response == "function_tuple"):
+        function_tuple.run()
+    elif (response == "nested_tuple"):
+        nested_tuple.run()
+
+
+
 
 
 def run():
@@ -201,11 +238,14 @@ def run():
     while(is_running):
         print("What would you like to do?")
         print("[a] Run 'Block A: Basics' programs")
+        print("[b] Run 'Block A: Basics' programs")
         print("[q] Quit")
         response = input()
 
         if (response == "a"):
             run_block_a()
+        elif (response == "b"):
+            run_block_b()
         elif (response == "q"):
             break
         else:
