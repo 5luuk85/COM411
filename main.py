@@ -44,7 +44,7 @@ import basics.repetitions.for_loop.characters as characters
 import basics.repetitions.for_loop.reverse as reverse
 import basics.repetitions.for_loop.membership_operators as membership_operators
 #Repetitions> nested_loop
-import basics.repetitions.nested_loop.nested as nested
+import basics.repetitions.nested_loop.nested as nested_
 import basics.repetitions.nested_loop.nesting as nesting
 
 #Functions
@@ -157,8 +157,8 @@ def run_block_a():
         membership_operators.run()
 
     #Repetitions> nested_loop
-    elif (response == "nested"):
-        nested.run()
+    elif (response == "nested_"):
+        nested_.run()
     elif (response == "nesting"):
         nesting.run()
 
