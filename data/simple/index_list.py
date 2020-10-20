@@ -1,6 +1,8 @@
 #Beep and Bop devise a plan to escape the maze. 
 #We need to create a variation of the previous simple_list program to help them escape. 
 
+#Indexing a list, the positions of the objects within a list.
+
 def movements():
   path = ["Move Forward", 10, "Move Backward", 5, "Move Left", 3, "Move Right", 1]
 
@@ -16,7 +18,7 @@ def run():
   path = movements()
 
   #The in range function will start from the position 0, read in the number of entries in the list of "path" from the "len" function and go up in increments of 2 at a time, up the positions of the list. the. The reason for going up 2 at a time is because in our print statement, we are printing two positions of the list at a time.
-  
+
   for index in range (0, len(path), 2):
     print ("{} for {} steps".format(path[index], path[index+1])) #[index+1] is plus 1 in the position of the first index, remember the positions of the objects in the list
 
