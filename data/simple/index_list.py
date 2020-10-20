@@ -15,6 +15,7 @@ def movements():
 
 def run():
   print("moving...")
+
   path = movements()
 
   #The in range function will start from the position 0, read in the number of entries in the list of "path" from the "len" function and go up in increments of 2 at a time, up the positions of the list. the. The reason for going up 2 at a time is because in our print statement, we are printing two positions of the list at a time.
@@ -31,7 +32,6 @@ run()
   #print("{} for {}".format(path[2], path[3]))
   #print("{} for {}".format(path[4], path[5]))
   #print("{} for {}".format(path[6], path[7]))
-
 
   #The variable "path" with the brackets [], the numbers in the brackets are in collaboration to the position of the object within the list in the function "ovements()". The list in this case contains a total of 8 positions, starting from 0 ending at position 7.
 
