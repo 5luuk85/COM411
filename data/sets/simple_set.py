@@ -4,9 +4,11 @@
 
 #A set can be defined by curly brackets or by "set()"
 
+#(1) When using curly brackets to populate a set, the brackets must have some data in it otherwise it is considered an empty dictionary instead of the input data for a set.
+
 def observe():
   observations = set()
-  observations = {"Flying Car", "Sky Scraper", "Laser", "Dome"}
+  observations = {"Flying Car", "Sky Scraper", "Laser", "Dome"}#(1)
 
   return observations
 
