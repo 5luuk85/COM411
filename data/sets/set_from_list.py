@@ -24,7 +24,7 @@ def run():
     observation_set.add((observation, occurances)) #(2)
 
   #(1) The ".count" will count how many times the "observation" variable is within in the list "observations". 
-  #(2) The ".add" is used to add elements into the set, in this case we've added a tuple. The tuple added contains the loop variable "observation" and the count of list "occurances". 
+  #(2) The ".add" is used to add elements into the set, in this case we've added a tuple. The tuple added contains the loop variable "observation" and the count of list "occurances". Bear in mine that to add the tupples, double brackets must be used or it will not work.
 
   #Display set
   for objects in observation_set: #(3)
