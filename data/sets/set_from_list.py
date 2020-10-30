@@ -3,7 +3,7 @@ def observe():
 
   observations = [] #Empty list
 
-  for count in range(3):
+  for count in range(7):
     print("Please enter an observation:")
     user_input = input()
     observations.append(user_input)
