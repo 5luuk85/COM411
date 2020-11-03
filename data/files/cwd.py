@@ -2,7 +2,7 @@ import os
 
 def cwd():
   path = os.getcwd()
-  print(f"Current working folder path: {path}")
+  print(f"Current working folder path: {path}\n")
 
   print("The folder contains the following:")
   for file in os.listdir(path):
