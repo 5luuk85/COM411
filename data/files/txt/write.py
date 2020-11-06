@@ -40,10 +40,10 @@ def save(the_file, data):
 def run():
 
   #Calling the functions 
-  data = search("data/files/txt/books.txt") #[1]
+  data = search("data/files/txt/books.txt") #[5]
   save("data/files/txt/section-books.txt", data) 
   
-  #[1] The variable "data" is defined by the "search" function
+  #[5] The variable "data" is defined by the "search" function
 
   #If the file does not exist already, a new file will be created with the specified directory and file name in the code, in this case "section-books.txt" is created under the specified file path.
 
