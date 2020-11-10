@@ -29,13 +29,15 @@ def generate():
 
   for lines in range(no_of_lines):#Using the integer input to determine the for loop condition 
     values = data() 
-
+    print()
     x = rnd.randint(1, 10) #Using the imported math.randdom module
     y = rnd.randint(1, 10) #Range of random numbers set range from 1 - 10
 
-    plot_format = (f"{values['colour']},{values['marker_style']},{values['line_style']}")
+    #Using data from dictionary, the format is shown below 
+    plot_format = f"{values['colour']}{values['marker_style']}{values['line_style']}"
 
     plt.plot(x, y, plot_format) 
+
 
   plt.show()
 
@@ -44,3 +46,7 @@ def run():
   print("Running...")
   generate() 
   print("Done!")
+
+run()
+#Link so site displaying format options and what character is used to input them for a plot
+#https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot
