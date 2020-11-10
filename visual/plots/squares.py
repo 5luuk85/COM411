@@ -1,4 +1,5 @@
 #The plot function can also display different outputs for the graph such as plotting the points as dots or squares for example. The line can also be changed to a dashed, dotted or solid line.
+#More than one plot can be place on a graph, this essentially creates a graph with more than one layer of data
 
 import matplotlib.pyplot as plt #imports plotting library for python 
 
