@@ -20,11 +20,13 @@ def path():
     x_values.append(data[0])
     y_values.append(data[1])
 
-  return x_values, y_values
+  return [x_values, y_values] #Use brackets when returning a list
 
 def run():
   values = path()
   plt.plot (values[0], values[1], 'ro--') #values [0] is the x value from the returned list and values [1] is the y value returned from the list
+  plt.xlabel("X values") #Lavbels the axis on the output
+  plt.ylabel("Y values")
   plt.show()
 
 run()
