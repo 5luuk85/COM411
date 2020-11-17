@@ -3,6 +3,9 @@
 #The things that make plotting subplots possible is the figure and followed by the axes.
 #The figure is the container or overall display, and then the axes is the actual plots/graphs themselves. Later on the figure is refered to as "fig" and the axes; "axs" in the coding.
 
+#The temps.txt file used in this example has the number of rows representing the days of the week and then the actual data entered to represent the temperatures, take a look if needed.
+
+
 import matplotlib.pyplot as plt #import plot module
 
 def read_data(file_path):
@@ -29,6 +32,7 @@ def run():
  
   axs[0].plot(x, y) #"[0]" indicates the first graph on the same horizontle display/figure
   axs[1].bar(x, y) #"[1]" indicates the second graph on the same horizontle display/figure
+  #".bar" displays a bar chart, ".plot" displays a line graph
 
   plt.tight_layout() #When displaying multiple plots, displays such as the labels can often be overlapped by another plot due to the sizing of the display, the ".tight_layout()" function makes sure the plots are properly size not to overlap. 
 
