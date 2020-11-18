@@ -22,6 +22,7 @@ def read_data():
     key_week2 = header[1].strip() 
 
     
+    
 
     temps = {       #Dictionary created
       key_week1:[], #The key "header[0]" is "week1" in the csv file
@@ -46,6 +47,10 @@ def run():
 
   plt.xlabel("Days")        
   plt.ylabel("Temperature") #Giving the axis a label
+
+  axs[0].title.set_text('Week 1') 
+  axs[1].title.set_text('Week 2') 
+  #Adds titles to subplots, useful when multiple subplots are displayed
 
   axs[0].plot(week1) #First plot
   axs[1].plot(week2) #Second plot
