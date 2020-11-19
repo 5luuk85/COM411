@@ -64,7 +64,7 @@ def read_data():
       data[SibSp].append(row[6].strip())
       data[Parch].append(row[7].strip())
       data[Ticket].append(row[8].strip())
-      data[Fare].append(round(row[9], 2).strip())
+      data[Fare].append(round(float(row[9], 2).strip()))
       data[Cabin].append(row[10].strip())
       data[Embarked].append(row[11].strip())
 
