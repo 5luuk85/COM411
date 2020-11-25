@@ -16,7 +16,7 @@ def animate(frame_no):
   ax.set_ylim(-1, 1) #y axis limit defined, range -1 to 1 is showing oscillation
 
   x = np.arange(0, 2*np.pi, 0.01) #[1] Converts x values into radians
-  y = np.sin(x + frame_no / 50) #[2]
+  y = np.sin(x + frame_no / 50) #[2] y values of the sine wave
 
   ax.plot(x, y) #plots the graph into figure 
 
