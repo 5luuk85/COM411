@@ -17,15 +17,15 @@ def animate(frame):
 
   x = np.arange(0, frame) #[2] numpy range array of 0 to number of frames
   x_in_radians = x * (np.pi/180) #[3] Radians, the unit measurment of degrees. 
-  y = np.sin(x_in_radians) #[4] sin function in numpy
+  y = np.sin(x_in_radians) #[4] sin function in numpy (np.sin), calculates y value for sine wave
 
-  ax.plot(x, y, 'g')
+  ax.plot(x, y, 'g') #plot graph function
 
   #[2] The numpy range array (np.arange). By using a numpy range array as opposed to a normal range, i.e range(0-10), is that with the numpy range array, it also generates floats such as 0.2, 0.3 ect. Also the main benefit of using the numpy range array in this example is that, when performing an operation using a range of numbers to create a list of values, the list of values will have to be iterated through with another function such as a loop. But using an numpy array, all the numbers in the array can simply be multiplied by another value all at once without the need of another function. e.g. (not related to example) x_values =np.arange(0,100) -> doubled = x_values * 2. 
 
   #[3] Converting the values of x into radians, as x is currently in degrees. To convert from degrees to radians *number* X pi divided 180. The numpy module enables the mathamatic function (np.pi/180). np.pi also gets the value of PI
 
-  #[4] The numpy sin (np.sin) function calculates the y value using the x values representing the degrees in radians
+  #[4] The numpy sin (np.sin) function calculates the y value for a sine wave using the x values representing the degrees in radians
 
 
 def run():
