@@ -29,7 +29,8 @@ def animate(frame):
 
 
 def run():
-  global fig
+  global fig #Global function defined, causes less confusion for python.
+
   sine_animation = animation.FuncAnimation(fig, animate, frames = 720, interval = 100)
   #Calling animation function (animation.FuncAnimation) and defining that the figure is to be animated with the limit of frames of 720 and each frame to be displayed at intervals of 0.1 seconds (100 miliseconds). Function is assigned to a variable (sine_animation), the function has to be assigned to a variable to work in python. 
 
