@@ -22,7 +22,7 @@ def combined():
   yellowx = [7, 7, 3, 7]
   yellowy = [3, 5, 4, 3]
     
-  plt.plot(yellowx, yellowy, 'g-.*')
+  plt.plot(yellowx, yellowy, 'y-p')
     
   plt.show()
     
