@@ -1,29 +1,4 @@
-class Robot:
-
-  # A class attribute
-  laws = "Protect, Obey and Survive"
-
-  # A class method
-  def the_laws():
-    print(Robot.laws)#[1]
-
-  # An initialiser (special instance method)
-  def __init__(self):
-
-    # An instance attribute
-    self.name = "Robot"
-    self.age = 0
-
-  # An instance method
-  def display(self):
-    print(f"I am {self.name}")
-
-if (__name__ == "__main__"):
-  robot = Robot()
-  robot.display()
-  Robot.the_laws()#[2]
-
-
+#When creating new classes, a new separte file should be created for each class
 
 class Human:
 
@@ -37,7 +12,7 @@ class Human:
   def display(self):
     print(f"I am {self.name}, my energy is {self.energy}.")
 
-if (__name__ == "__main__"):
+if (__name__ == "__main__"): #Line to test code; the if statement
   human = Human()
   human.display()
 
