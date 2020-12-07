@@ -1,0 +1,22 @@
+Activity 1
+human.py
+robot.py
+
+Activity 2
+human_magic_methods.py
+robot_magic_methods.py
+
+Activity 3
+human_instance_methods.py
+robot_instance_methods.py
+
+Activity 4
+
+
+Activity 5
+
+
+Activity 6
+
+
+Activity 7

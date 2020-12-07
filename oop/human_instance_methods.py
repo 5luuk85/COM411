@@ -3,9 +3,9 @@ class Human:
 
   MAX_ENERGY = 100
 
-  def __init__(self):
-    self.name = "Human"
-    self.age = 0
+  def __init__(self, human, age=0):
+    self.name = human
+    self.age = age
     self.energy = Human.MAX_ENERGY
   
 
@@ -46,6 +46,17 @@ class Human:
 if (__name__ == "__main__"):
   human = Human()
   #human.display()
+  #human.grow()
+  #print(human.__repr__()) #[4] Printing thestring returned from '__repr__' magic method
+  #print(human.__str__()) #[5] Printing thestring returned from '__str__' magic method
+
+########################### Added methods for Activity 3 ###########################
+  print(repr(human))
   human.grow()
-  print(human.__repr__()) #[4] Printing thestring returned from '__repr__' magic method
-  print(human.__str__()) #[5] Printing thestring returned from '__str__' magic method
+  human.move(30)  #Calling instance methods
+  print(repr(human))
+   
+  human.eat(20)
+  print(repr(human))
+  print(human)
+########################### Added methods for Activity 3 ###########################
