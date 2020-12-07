@@ -34,10 +34,10 @@ class Human:
 
 
   def __repr__(self): #[A]
-    return f'human(name= {self.name}, age= {self.age}, energy={self.energy})'#[4]
+    return f"human(name= {self.name}, age= {self.age}, energy={self.energy})"#[4]
 
   def __str__(self): #{B}
-    return f'I am {self.name} and I am {self.age} years old, my energy is {self.energy}.'#[5]
+    return f"I am {self.name} and I am {self.age} years old, my energy is {self.energy}."#[5]
   #[A]'__repr__' magic method build into python, returns a formal string representation of the object
 
   #[B]'__str__' magic method build into python, returns an informal string representation of the object

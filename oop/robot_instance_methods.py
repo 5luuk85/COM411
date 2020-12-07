@@ -40,10 +40,10 @@ class Robot:
 
 
   def __repr__(self):
-    return f'robot(name= {self.name}, age= {self.age}), energy= {self.energy}'#[2]
+    return f"robot(name= {self.name}, age= {self.age}), energy= {self.energy}"#[2]
 
   def __str__(self):
-    return f'My name is {self.name}, I am {self.age} years old and my energy is {self.energy}.'#[3]
+    return f"My name is {self.name}, I am {self.age} years old and my energy is {self.energy}."#[3]
 
 if (__name__ == "__main__"):
   robot = Robot()
