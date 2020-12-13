@@ -35,6 +35,8 @@ Activity 7
 
 Activity 1
 inhabitant.py
+human_subclass.py
+robot_subclass.py
 
 Activity 2
 

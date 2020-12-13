@@ -3,8 +3,8 @@ from inhabitant import Inhabitant
 #Creation of subclass 'Human' using the initialiser and methods from Inhabitant parent class
 class Human(Inhabitant):
 
-  def __init__(self):
-    super().__init__()
+  def __init__(self, name="Human", age=0):
+    super().__init__(name, age)
   
   def __repr__(self):
     return f"Human(name= {self.name}, age= {self.age}, energy={self.energy})"

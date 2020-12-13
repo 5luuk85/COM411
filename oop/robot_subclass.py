@@ -7,12 +7,14 @@ class Robot(Inhabitant):
   #Class attribute
   LAWS = "Protect, Obey and Survive" 
 
-  def __init__(self):
-    super().__init__()
-
+  @staticmethod
   def the_laws(): #Static class method for Robot class
     print(Robot.LAWS)
-  
+
+
+  def __init__(self, name="Robot", age=0):
+    super().__init__(name, age)
+
   def __repr__(self):
     return f"Robot(name= {self.name}, age= {self.age}, energy={self.energy})"
 
