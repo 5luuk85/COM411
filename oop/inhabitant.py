@@ -1,6 +1,8 @@
+from abc import ABC #abc = Abstract based class
 
+#An abstract class is where we it doesn't allow the an object to be created with the class but sub-classes can be created with the abstract class. For example: the Inhabitant class cannot be used to create an object directly but sub-classes like Human or Robot can inherit the Abstract class to create a sub-class.
 
-class Inhabitant:
+class Inhabitant(ABC):
 
   MAX_ENERGY = 100
 
