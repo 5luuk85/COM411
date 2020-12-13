@@ -1,3 +1,5 @@
+################ OOP Week 1 start ################
+
 Activity 1
 human.py
 robot.py
@@ -26,3 +28,23 @@ Universe.py
 
 
 Activity 7
+
+################ OOP Week 1 end ##################
+
+################ OOP Week 2 start ################
+
+Activity 1
+inhabitant.py
+
+Activity 2
+
+
+Activity 3
+
+
+Activity 4
+
+
+Activity 5
+
+################ OOP Week 2 end ##################
