@@ -1,6 +1,6 @@
-from tech import Tech 
+from tech import Tech #Imported abstract class to be inherited in this current Class: Laser
 
-class Laser(Tech):
+class Laser(Tech): #Class inheriting from Tech class
 
   #Class attribute
   MAX_RANGE = 250
