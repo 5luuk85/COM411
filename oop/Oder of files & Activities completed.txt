@@ -39,14 +39,15 @@ human_subclass.py
 robot_subclass.py
 
 Activity 2
-
+planet_inhabitants.py
 
 Activity 3
-
+inhabitant.py (Adding abstract class)
 
 Activity 4
-
+tech.py
 
 Activity 5
-
+jetkacp.py
+laser.py
 ################ OOP Week 2 end ##################
