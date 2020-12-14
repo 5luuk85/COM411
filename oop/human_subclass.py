@@ -5,7 +5,17 @@ class Human(Inhabitant):
 
   def __init__(self, name="Human", age=0):
     super().__init__(name, age)
-  
+
+    self.clothing = []
+
+
+  def dress(self, clothing):
+    self.clothing.append(clothing)
+
+  def undress(self, clothing):
+    self.clothing.remove(clothing)
+
+
   def __repr__(self):
     return f"Human(name= {self.name}, age= {self.age}, energy={self.energy})"
 

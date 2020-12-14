@@ -37,17 +37,24 @@ Activity 1
 inhabitant.py
 human_subclass.py
 robot_subclass.py
+alien.py
+
 
 Activity 2
 planet_inhabitants.py
 
 Activity 3
-inhabitant.py (Adding abstract class)
+inhabitant.py (Added abstract class)
 
 Activity 4
 tech.py
 
 Activity 5
-jetkacp.py
+jetpack.py
 laser.py
+
+clothing_size.py (Notes needed for enum)
+clothing.py
+
+human_subclass.py (updated with clothing list, dress & undress methods)
 ################ OOP Week 2 end ##################
