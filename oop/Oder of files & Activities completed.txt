@@ -1,38 +1,40 @@
 ################ OOP Week 1 start ################
 
-Activity 1
+Activity 1 - Create Class and initiate class
 human.py
 robot.py
 
 
-Activity 2
-human_magic_methods.py
-robot_magic_methods.py
+Activity 2 - Add magic methods to classes
+human.py
+robot.py
 
 
-Activity 3
-human_instance_methods.py
-robot_instance_methods.py
+Activity 3 - Add more methods to classes
+human.py
+robot.py
 
 
-Activity 4
+Activity 4 - Importing classes to use in another class, using a list
 planet.py
 
 
-Activity 5
+Activity 5 - Importing classes to use in another class, using a dictionary
 planet_with_dictionary.py
 
 
-Activity 6
+Activity 6 
 Universe.py
 
 
 Activity 7
-
+**Still to be completed**
 ################ OOP Week 1 end ##################
 
 
 ################ OOP Week 2 start ################
+
+*Inheriting from parent classes*
 
 Activity 1
 inhabitant.py
@@ -59,20 +61,3 @@ clothing.py
 
 human_subclass.py (updated with clothing list, dress & undress methods)
 ################ OOP Week 2 end ##################
-
-
-################ OOP Week 3 start ################
-Activity 1
-
-
-Activity 2
-
-
-Activity 3
-
-
-Activity 4
-
-
-Activity 5
-################ OOP Week 3 end ##################

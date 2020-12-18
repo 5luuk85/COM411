@@ -1,7 +1,7 @@
 import random as rnd #Importing random module
 
-from human_instance_methods import Human #Importing classes
-from robot_instance_methods import Robot
+from human import Human #Importing classes
+from robot import Robot
 from planet import Planet
 
 class Universe:

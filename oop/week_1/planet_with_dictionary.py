@@ -1,36 +1,38 @@
-#Activity 4
+#Activity 5
 
-from human_instance_methods import Human 
-from robot_instance_methods import Robot
+from human import Human 
+from robot import Robot
 #imoprting the classes from other files to work on this one 
 
 class Planet: #Class
 
-  def __init__(self): #Instance method
+  def __init__(self): #Instance method using dictionary
+    self.inhabitants = { 
+      'humans' : [], 
+      'robots' : []
+    }
 
-    self.humans =[]
-    self.robots =[]
 
   def add_human(self, human): #Methods
-    self.humans.append(human)
+    self.inhabitants['humans'].append(human)
 
   def remove_human(self, human):
-    self.humans.remove(human)
+    self.inhabitants['humans'].remove(human)
 
 
   def add_robot(self, robot): #Methods
-    self.robots.append(robot)
+    self.inhabitants['robots'].append(robot)
 
   def remove_robot(self, robot):
-    self.humans.remove(robot)
+    self.inhabitants['robots'].remove(robot)
 
 
 
   def __repr__(self): #Magic methods
-    return f"planet(humans- {self.humans}, robots- {self.robots})"
+    return f"planet(humans- {self.inhabitants['humans']}, robots- {self.inhabitants['robots']})"
 
   def __str__(self):
-    return f'This planet has: humans- {len(self.humans)} and robots- {len(self.robots)}'
+    return f"This planet has: humans- {len(self.inhabitants['humans'])} and robots- {len(self.inhabitants['robots'])}"
     
 
 

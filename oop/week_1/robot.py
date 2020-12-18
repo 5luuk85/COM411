@@ -1,3 +1,4 @@
+#################### Create class and instantiate it  for Activity 1 ####################
 class Robot:
 
   # Class attributes
@@ -15,6 +16,12 @@ class Robot:
     self.name = robot
     self.age = age
     self.energy = Robot.MAX_ENERGY
+
+  # An instance method
+  def display(self):
+    print(f"I am {self.name}")
+#################### Create class and instantiate it  for Activity 1 ####################
+
 
 ########################### Added methods for Activity 3 ###########################
   def grow(self):
@@ -34,27 +41,34 @@ class Robot:
       self.energy -= distance
 ########################### Added methods for Activity 3 ###########################
 
-  # An instance method
-  def display(self):
-    print(f"I am {self.name}")
 
 
+########################### Added magic methods for Activity 2 ###########################
   def __repr__(self):
     return f"robot(name= {self.name}, age= {self.age}), energy= {self.energy}"#[2]
 
   def __str__(self):
     return f"My name is {self.name}, I am {self.age} years old and my energy is {self.energy}."#[3]
+########################### Added magic methods for Activity 2 ###########################
 
-if (__name__ == "__main__"):
-  robot = Robot()
 
+################################ Test code ################################
+if (__name__ == "__main__"): #Test code
+  robot = Robot() #The class
+
+########################### Test code for Activity 1 ###########################
   #robot.display()
   #Robot.the_laws()#[1]
-  
+########################### Test code for Activity 1 ###########################
+
+
+########################### Test code for Activity 2 ###########################
   #print(robot.__repr__())#[2]
   #print(robot.__str__())#[3]
-  
-  ########################### Added methods for Activity 3 ###########################
+########################### Test code for Activity 2 ###########################
+
+
+########################### Test code for Activity 3 ###########################
   print(repr(robot))
   robot.grow()
   robot.move(30)  #Calling instance methods
@@ -62,12 +76,10 @@ if (__name__ == "__main__"):
    
   robot.eat(20)
   print(repr(robot))
-  print(robot)
-  #print(str(robot)) #Doesn't work
-  
-  ########################### Added methods for Activity 3 ###########################
+  print(robot) #From __str__ magic method
+ 
   Robot.the_laws()
-
+########################### Test code for Activity 3 ###########################
 
 
 
