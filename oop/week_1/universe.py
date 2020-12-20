@@ -36,4 +36,6 @@ class Universe:
 if (__name__ == "__main__"):
   universe = Universe()
   universe.generate()
+  print(repr(universe))
   print(universe)
+  

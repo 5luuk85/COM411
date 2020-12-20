@@ -27,7 +27,7 @@ class Planet: #Class
 
 
   def __repr__(self): #Magic methods
-    return f"planet(humans- {self.humans}, robots- {self.robots})"
+    return f"planet(humans- {len(self.humans)}, robots- {len(self.robots)})"
 
   def __str__(self):
     return f'This planet has: humans- {len(self.humans)} and robots- {len(self.robots)}'

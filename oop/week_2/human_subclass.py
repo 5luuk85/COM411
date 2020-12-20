@@ -3,7 +3,7 @@ from inhabitant import Inhabitant
 #Creation of subclass 'Human' using the initialiser and methods from Inhabitant parent class
 class Human(Inhabitant):
 
-  def __init__(self, name="Human", age=0):
+  def __init__(self, name="Human", age =0):
     super().__init__(name, age)
 
     self.clothing = []
