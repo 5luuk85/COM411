@@ -32,13 +32,13 @@ class Human:
       self.energy = Human.MAX_ENERGY
       return self.energy
     else:
-      self.energy += amount
+      self.energy + amount
 
   def move(self, distance):
     if (self.energy - distance < 0): 
       self.energy = 0
     else:
-      self.energy -= distance
+      self.energy - distance
 ########################### Added methods for Activity 3 ###########################
 
 
